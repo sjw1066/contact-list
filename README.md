@@ -17,7 +17,7 @@ In addition to the above:
 is implemented with a single `JDBCTemplate` call.
   
 Swagger/OpenApi 3.0 documentation is generated via the `springfox-boot-starter`
-dependencies, and can be accessed at http://localhost:8888/swager-ui/
+dependencies, and can be accessed at http://localhost:8888/swagger-ui/index.html
 
 ### Build / execution
 
