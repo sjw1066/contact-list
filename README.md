@@ -14,7 +14,7 @@ This solution treats the following as full-fledged JPA entities (package `org.fo
 In addition to the above:
 - Contact names are stored as `@Embeddable` objects in the `contacts` table.
 - Call list items (name + home phone) are handled by a seperate DAO, which
-is implemented with a single `JDBCTemplate` call (SQL can be found in [application.yml](./application.yml)).
+is implemented with a single `JDBCTemplate` call (SQL can be found in [application.yml](./src/main/resources/application.yml)).
   
 Swagger/OpenApi 3.0 documentation is generated via the `springfox-boot-starter`
 dependencies, and can be accessed at http://localhost:8888/swagger-ui/index.html
