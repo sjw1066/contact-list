@@ -18,7 +18,7 @@ logging:
     org.hibernate.SQL: debug
 
 ---
-spring.config.activate.on-profile: networked
+spring.config.activate.on-profile: networked1, networked2
 
 spring.datasource:
   driver-class-name: org.hsqldb.jdbc.JDBCDriver
@@ -28,4 +28,9 @@ spring.datasource:
 
 spring.jpa:
   show-sql: true
-  hibernate.ddl-auto: create
+
+---
+spring.config.activate.on-profile: networked1
+spring:
+  jpa:
+    hibernate.ddl-auto: create
